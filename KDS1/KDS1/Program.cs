@@ -11,11 +11,14 @@ namespace KDS1
         static void Main(string[] args)
         {
             Console.WriteLine("Iveskite pirma simboli");
-            char pirmasSimbolis = Convert.ToChar(Console.ReadLine());
-            Console.WriteLine("Iveskite pirma simboli");
-            char antrasSimbolis = Convert.ToChar(Console.ReadLine());
-            Console.WriteLine("Iveskite pirma simboli");
-            char treciasSimbolis = Convert.ToChar(Console.ReadLine());
+            char pirmasSimbolis = Console.ReadKey().KeyChar;
+            Console.WriteLine();
+            Console.WriteLine("Iveskite antra simboli");
+            char antrasSimbolis = Console.ReadKey().KeyChar;
+            Console.WriteLine();
+            Console.WriteLine("Iveskite trecia simboli");
+            char treciasSimbolis = Console.ReadKey().KeyChar;
+            Console.WriteLine();
 
             Console.WriteLine("Simboliai atvirkstine tvarka: {0} {1} {2}", treciasSimbolis, antrasSimbolis, pirmasSimbolis);
             Console.ReadLine();
