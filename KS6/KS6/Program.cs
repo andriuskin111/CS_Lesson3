@@ -10,6 +10,13 @@ namespace KS6
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Iveskirte spalva");
+            string spalva = Console.ReadLine();
+
+            if ((spalva == "geltona") || (spalva == "zalia") || (spalva == "raudona"))
+                Console.WriteLine("spalva yra trispalvej");
+            else
+                Console.WriteLine("spalv ne trispalvej");
         }
     }
 }
