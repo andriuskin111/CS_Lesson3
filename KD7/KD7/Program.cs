@@ -11,7 +11,7 @@ namespace KD7
         static void Main(string[] args)
         {
             Console.WriteLine("Iveskite grupes nariu skaiciu:");
-            int nariuSkaicius = 0;
+            int nariuSkaicius;
 
             if (!int.TryParse(Console.ReadLine(), out nariuSkaicius))
             {
