@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29609.76
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KDS3", "KDS3\KDS3.csproj", "{6F18B729-D4F6-4CEC-ACA8-0ECFAA198EEE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F18B729-D4F6-4CEC-ACA8-0ECFAA198EEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F18B729-D4F6-4CEC-ACA8-0ECFAA198EEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F18B729-D4F6-4CEC-ACA8-0ECFAA198EEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F18B729-D4F6-4CEC-ACA8-0ECFAA198EEE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0F202D04-D54E-4297-9452-F58B0EC6E60F}
+	EndGlobalSection
+EndGlobal
